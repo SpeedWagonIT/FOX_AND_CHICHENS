@@ -6,9 +6,15 @@ class DESK
 {
 public:
     DESK();
-    void setFox(int _FOX);
-    int getFOX();
-
+    //void setFox(int _FOX);
+    //int getFOX();
+    //void setChickens(int _CHICKEN);
+    //int getCHICKEN();
+    void setTEAM(int);
+    int getTEAM();
+    int desk [6][6];
+    void setobj();
+    int team;
 
 };
 
